@@ -1,0 +1,137 @@
+*{
+    font-family: "Montserrat", sans-serif; /*familia da fonte*/
+    margin: 0;/*margem*/
+    padding: 0;/*preenchimento*/
+    box-sizing: border-box;/*dimencionamento da caixa*/
+}
+header{
+    margin: 44px 0 144px 76px;/*margem*/
+}
+.link-header{
+    font-weight: 600; /*peso da fonte*/
+    font-size: 24px;/*tamanho da fonte*/
+    line-height: 29px;/*altura da linha*/
+    color: #989D9C;/*cor*/
+    cursor: pointer;/*cursor mão */
+    margin-right: 23px;/*margem direita */
+}
+.button-header{
+    background: #665AE1;/*cor do fundo */
+    border-radius: 20.5px;/*borda redonda*/
+    width: 130px;/*largura*/
+    height: 41px;/*altura*/
+    border: none;/*borda não*/
+    font-weight: 600;/*peso da fonte*/
+    font-size: 24px;/*tamanho da fonte*/
+    line-height: 29px;/*altura da linha*/
+    color: #FFFFFF;/*cor da letra*/
+    cursor: pointer;/*cursor mão*/
+}
+ 
+    
+
+.logo-img{
+    width: 568px;/*altura*/
+    height: 500px;/*largura*/
+    margin-left: 125px;/*margem esquerda*/
+    display: inline-block;/*mostrar bloco em linha*/
+}
+section{
+    display: inline-block;/*mostrar bloco em linha*/
+    margin-left: 86px;/*margem esqueda*/
+}
+h1{
+    font-weight: 900px;/*peso da fonte*/
+    font-size: 100px;/*tamanho da fonte*/
+    line-height: 122px;/*altura da linha*/
+    color: #515151;/*cor da letra*/
+}
+h2{
+    font-weight: 500px;/*peso da fonte*/
+    font-size: 58px;/*tamanho da fonte*/
+    line-height: 71px;/*altura da linha*/
+    color: #515151;/*cor da letra*/
+} 
+p{
+    font-weight: 400px;/*peso da fonte*/
+    font-size: 24px;/*tamnho da fonte*/
+    line-height: 29px;/*altura da linha*/
+    color: #848484;/*cor da letra*/
+    width: 515px;/*largura*/
+    margin-top: 32px;/*margem emcima */
+    margin-bottom: 65px;/*margem embaixo*/
+}
+.button-main{
+    background: #ADFF00;/*cor do fundo*/
+    border-radius: 30px;/*borda redonda*/
+    width: 239px;/*largura*/
+    height: 64px;/*altura*/
+    border: none;/*borda não*/
+    cursor: pointer;/*cursor da mão*/
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0.25));/*efeito da sombra */
+    font-weight: 700px;/*peso da fonte*/
+    font-size: 28px;/*tamanho da fonte*/
+    line-height: 34px;/*altura da linha*/
+    color: #000000;/*cor da letra*/
+} 
+@media screen and (max-width:1200px){
+
+    .logo-img{
+        display: block;
+        position: static;
+        width: 397px;
+        height: 369px;
+        margin-top: 149px;
+        margin-right: 22px;
+        margin-left: 14px;
+     }
+     section{
+        display: block;
+         
+
+     }
+     h1{
+        margin-top: 24px;
+        color: #515151;
+        font-family: Montserrat;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+         
+     }
+     h2{
+        margin-top: 7px;
+        color: #515151;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        
+     }
+    .button-main{
+        margin-top: 17px;
+        width: 239px;
+        height: 64px;
+        flex-shrink: 0;
+        border-radius: 20.5px;
+        margin-left: -10px;
+        filter: drop-shadow(0px 0px 0px);
+        background: #ADFF00;
+    }
+    
+    header{
+        display: none;
+     }
+    p{
+        display: none;
+    }
+}
+    
+
+    
+
+    
+
+    
